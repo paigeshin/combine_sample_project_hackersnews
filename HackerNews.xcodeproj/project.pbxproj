@@ -10,6 +10,8 @@
 		8D303BFD23609F0E007CC7C0 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D303BFC23609F0E007CC7C0 /* Story.swift */; };
 		8D303C012360A1CD007CC7C0 /* StoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D303C002360A1CD007CC7C0 /* StoryDetailViewModel.swift */; };
 		8D303C032360A618007CC7C0 /* StoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D303C022360A618007CC7C0 /* StoryDetailView.swift */; };
+		8DC3CE4A2360E4CE0036D19E /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3CE492360E4CE0036D19E /* Webview.swift */; };
+		8DC3CE4D2360E6100036D19E /* WKWebView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3CE4C2360E6100036D19E /* WKWebView+Extensions.swift */; };
 		8DE030852360922400B93475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE030842360922400B93475 /* AppDelegate.swift */; };
 		8DE030872360922400B93475 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE030862360922400B93475 /* SceneDelegate.swift */; };
 		8DE0308B2360922600B93475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE0308A2360922600B93475 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 		8D303BFC23609F0E007CC7C0 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		8D303C002360A1CD007CC7C0 /* StoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewModel.swift; sourceTree = "<group>"; };
 		8D303C022360A618007CC7C0 /* StoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailView.swift; sourceTree = "<group>"; };
+		8DC3CE492360E4CE0036D19E /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
+		8DC3CE4C2360E6100036D19E /* WKWebView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+Extensions.swift"; sourceTree = "<group>"; };
 		8DE030812360922400B93475 /* HackerNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE030842360922400B93475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DE030862360922400B93475 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		8DC3CE4B2360E6030036D19E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3CE4C2360E6100036D19E /* WKWebView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		8DE030782360922400B93475 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +86,7 @@
 		8DE030832360922400B93475 /* HackerNews */ = {
 			isa = PBXGroup;
 			children = (
+				8DC3CE4B2360E6030036D19E /* Extensions */,
 				8D303BFB23609F01007CC7C0 /* Models */,
 				8DE4264023609C5B00078019 /* Views */,
 				8DE4263D2360974A00078019 /* View Models */,
@@ -118,6 +131,7 @@
 			children = (
 				8DE4264123609C6E00078019 /* StoryListView.swift */,
 				8D303C022360A618007CC7C0 /* StoryDetailView.swift */,
+				8DC3CE492360E4CE0036D19E /* Webview.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,8 +208,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DE030852360922400B93475 /* AppDelegate.swift in Sources */,
+				8DC3CE4D2360E6100036D19E /* WKWebView+Extensions.swift in Sources */,
 				8DE030872360922400B93475 /* SceneDelegate.swift in Sources */,
 				8DE4264223609C6E00078019 /* StoryListView.swift in Sources */,
+				8DC3CE4A2360E4CE0036D19E /* Webview.swift in Sources */,
 				8D303C012360A1CD007CC7C0 /* StoryDetailViewModel.swift in Sources */,
 				8DE4263F2360976400078019 /* StoryListViewModel.swift in Sources */,
 				8DE4263C236095DF00078019 /* Webservice.swift in Sources */,
