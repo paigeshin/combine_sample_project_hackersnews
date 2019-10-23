@@ -15,3 +15,11 @@ struct Story: Codable {
     let url: String
     
 }
+
+extension Story {
+    
+    static func placeholder() -> Story {
+        return Story(id: 0, title: "N/A", url: "")
+    }
+    
+}
